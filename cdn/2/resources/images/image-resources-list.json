@@ -1,0 +1,44 @@
+{
+  "1722951123014": {
+    "originalName": "SS4A_FullLogo-Color PNG.png",
+    "fileName": "1722951123014.png",
+    "size": 37892,
+    "url": "${appResourceUrl}/images/widget_3/1722951123014.png",
+    "created": 1722951123014,
+    "resourcesPrefix": "images/widget_3",
+    "referedIds": [],
+    "originId": "1722951123014",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1800,
+    "originalHeight": 1200
+  },
+  "1722951481928": {
+    "originalName": "mapa.png",
+    "fileName": "1722951481928.png",
+    "size": 265050,
+    "url": "${appResourceUrl}/images/widget_3/1722951481928.png",
+    "created": 1722951481928,
+    "resourcesPrefix": "images/widget_3",
+    "referedIds": [],
+    "originId": "1722951481928",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1373,
+    "originalHeight": 501
+  },
+  "1722951900008": {
+    "originalName": "SS4A_FullLogo-Color PNG.png",
+    "fileName": "1722951900008.png",
+    "size": 37529,
+    "url": "${appResourceUrl}/images/widget_47/1722951900008.png",
+    "created": 1722951900008,
+    "resourcesPrefix": "images/widget_47",
+    "referedIds": [],
+    "originId": "1722951900008",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1800,
+    "originalHeight": 768
+  }
+}
