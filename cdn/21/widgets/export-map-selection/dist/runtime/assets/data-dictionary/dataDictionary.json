@@ -1,0 +1,482 @@
+[
+  {
+    "Field Name": "geoid",
+    "Alias": "Census Tract GEOID",
+    "Unit of Measure": "Code",
+    "Description": "Unique identifier provided by the U.S. Census Bureau for Census tracts.",
+    "Field Type": "Text",
+    "Source": "U.S. Census Bureau Cartographic Boundary Files - 2020 - Census Tracts"
+  },
+  {
+    "Field Name": "year",
+    "Alias": "Data Year",
+    "Unit of Measure": "Year",
+    "Description": "Year of data and Census Tract geographies.",
+    "Field Type": "Integer",
+    "Source": ""
+  },
+  {
+    "Field Name": "state_name",
+    "Alias": "State Name",
+    "Unit of Measure": "Name",
+    "Description": "Name of state.",
+    "Field Type": "Text",
+    "Source": "U.S. Census Bureau Cartographic Boundary Files - 2020 - Census Tracts"
+  },
+  {
+    "Field Name": "statefp",
+    "Alias": "State FIPS Code",
+    "Unit of Measure": "Code",
+    "Description": "Two-digit identifier for state.",
+    "Field Type": "Text",
+    "Source": "U.S. Census Bureau Cartographic Boundary Files - 2020 - Census Tracts"
+  },
+  {
+    "Field Name": "county_name",
+    "Alias": "County Name",
+    "Unit of Measure": "Name",
+    "Description": "County name.",
+    "Field Type": "Text",
+    "Source": "U.S. Census Bureau Cartographic Boundary Files - 2020 - Census Tracts"
+  },
+  {
+    "Field Name": "countyfp",
+    "Alias": "County FIPS Code",
+    "Unit of Measure": "Code",
+    "Description": "Three-digit identifier for the county.",
+    "Field Type": "Text",
+    "Source": "U.S. Census Bureau Cartographic Boundary Files - 2020 - Census Tracts"
+  },
+  {
+    "Field Name": "cbsa_name",
+    "Alias": "Core-Based Statistical Area Name",
+    "Unit of Measure": "Name",
+    "Description": "Core-based statistical areas (CBSAs).",
+    "Field Type": "Text",
+    "Source": ""
+  },
+  {
+    "Field Name": "cbsa_code",
+    "Alias": "Core-Based Statistical Area Code",
+    "Unit of Measure": "Code",
+    "Description": "Core-based statistical areas (CBSAs) code.",
+    "Field Type": "Text",
+    "Source": ""
+  },
+  {
+    "Field Name": "hh_profile",
+    "Alias": "Household Profile",
+    "Unit of Measure": "Code",
+    "Description": "Household Profile. Indicates the subset of households included in the reported statistics. See Household Profile definitions for more details.",
+    "Field Type": "Short Integer",
+    "Source": "N/A"
+  },
+  {
+    "Field Name": "population",
+    "Alias": "Tract Population",
+    "Unit of Measure": "Persons",
+    "Description": "Population living in the Census Tract (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "2017-21 PUMS & ACS"
+  },
+  {
+    "Field Name": "hh",
+    "Alias": "Households",
+    "Unit of Measure": "Households",
+    "Description": "The number of households in the Census Tract (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "2017-21 PUMS & ACS"
+  },
+  {
+    "Field Name": "vehicles_hh",
+    "Alias": "Number of Vehicles per Household",
+    "Unit of Measure": "Vehicles per Household",
+    "Description": "Number of vehicles per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "PopulationSim (2017-21 PUMS)"
+  },
+  {
+    "Field Name": "rural_urban",
+    "Alias": "Rural or Urban",
+    "Unit of Measure": "Category",
+    "Description": "Urban or rural designation for Census Tract. For tracts with at least 100 residents, the tract was coded as \"URBAN\" if the majority of its residents lived in urban areas of at least 50,000 residents and \"RURAL\" otherwise.  For tracts with less than 100 residents, the tract was coded as \"URBAN\" if the majority of its land area was in urban areas of at least 50,000 residents and \"RURAL\" otherwise.",
+    "Field Type": "Text",
+    "Source": "2020 Decennial Census"
+  },
+  {
+    "Field Name": "household_density",
+    "Alias": "Household Density",
+    "Unit of Measure": "Households per square mile",
+    "Description": "A categorical variable defining whether household density is low, medium, or high. Based on the household density neighborhood characteristic. Low: < 250 households per square mile; Medium: 250 - 2500 households per square mile; High: > 2500 household per square mile.",
+    "Field Type": "Factor (Low, Medium, High)",
+    "Source": "HOUSEHOLD COUNT: U.S. Census Bureau American Community Survey (ACS) 5-Year (2017-2021) - Table B11016\n\nDEVELOPED LAND AREA\n- USGS National Land Cover Database (NLCD) 2019\n- USGS National Land Cover Database (NLCD) 2016 (For AK, which is not included in the 2019 dataset)\n- PADUS Region 12 2019 (For HI which in not included in the USGS NLCD Data)"
+  },
+  {
+    "Field Name": "employment_density",
+    "Alias": "Employment Density",
+    "Unit of Measure": "Jobs per square mile",
+    "Description": "A categorical variable defining whether employment density is low, medium, or high. Based on the employment density neighborhood characteristic. Low: < 85 jobs per square mile; Medium: 85 - 1400 jobs per square mile; High: > 1400 jobs per square mile.",
+    "Field Type": "Factor (Low, Medium, High)",
+    "Source": "EMPLOYMENT: U.S. Census Bureau LEHD Origin-Destination Employment Statistics (LODES)\n\nDEVELOPED LAND AREA\n- USGS National Land Cover Database (NLCD) 2019\n- USGS National Land Cover Database (NLCD) 2016 (For AK, which is not included in the 2019 dataset)\n- PADUS Region 12 2019 (For HI which in not included in the USGS NLCD Data)"
+  },
+  {
+    "Field Name": "traffic_fatalities",
+    "Alias": "Traffic Fatalities (2018 – 2022)",
+    "Unit of Measure": "Persons",
+    "Description": "Count of fatal injuries suffered in motor vehicle traffic crashes. Count of traffic fatalities 2018–2022 within a 250-ft buffer around each Census tract.  Note that due to the buffer, these values are not additive across multiple tracts.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. DOT NHTSA, Fatality Analysis Reporting System (FARS)"
+  },
+  {
+    "Field Name": "pedestrian_access",
+    "Alias": "Pedestrian Access Score",
+    "Unit of Measure": "Category",
+    "Description": "Pedestrian accessibility index, on a scale from 0 to 1 with 1 meaning “most access.”",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Calculated from various sources"
+  },
+  {
+    "Field Name": "cyclist_access",
+    "Alias": "Cyclist Access Score",
+    "Unit of Measure": "Category",
+    "Description": "Cyclist accessibility index, on a scale from 0 to 1 with 1 meaning “most access.”",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Calculated from various sources"
+  },
+  {
+    "Field Name": "motorist_access",
+    "Alias": "Motorist Access Score",
+    "Unit of Measure": "Category",
+    "Description": "Motorist accessibility index, on a scale from 0 to 1 with 1 meaning “most access.”",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Calculated from various sources"
+  },
+  {
+    "Field Name": "rpps",
+    "Alias": "Regional Price Parity",
+    "Unit of Measure": "Index, 100 = national average",
+    "Description": "A price index that measures the geographic price level differences for one period in time within the United States. An RPP is a weighted average of the price level of goods and services for the average consumer in one geographic region compared to all other regions in the United States.",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Bureau of Economic Analysis"
+  },
+  {
+    "Field Name": "transportation_cost",
+    "Alias": "Household Transportation Costs",
+    "Unit of Measure": "Dollars",
+    "Description": "Dollar amount of the total annual estimated household spending on transportation (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "Cost Burden Model Outputs (HTS, PopulationSim), USDOT national multipliers for finance charges, service flow costs, and maintenance costs; state level multiplier for fixed ownership costs."
+  },
+  {
+    "Field Name": "mean_income",
+    "Alias": "Mean Household Income",
+    "Unit of Measure": "Dollars",
+    "Description": "Average annual income per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "PopulationSim (2017-21 PUMS)"
+  },
+  {
+    "Field Name": "median_income",
+    "Alias": "Median Household Income",
+    "Unit of Measure": "Dollars",
+    "Description": "Median annual income per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "PopulationSim (2017-21 PUMS)"
+  },
+  {
+    "Field Name": "transportation_cost_burden",
+    "Alias": "Transportation Cost as a Percent of Median Income",
+    "Unit of Measure": "",
+    "Description": "The ratio of household transportation costs to median income (for the subset of households in the selected Household Profile).",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Cost Burden Model Outputs (HTS, PopulationSim), USDOT national multipliers for finance charges, service flow costs, and maintenance costs; state level multiplier for fixed ownership costs, and gasoline price"
+  },
+  {
+    "Field Name": "t_cost_burdened_population",
+    "Alias": "Transportation Cost Burdened Population",
+    "Unit of Measure": "Persons",
+    "Description": "Count of persons within Census Tract whose Transportation Cost is 15% or more of Income.",
+    "Field Type": "Short Integer",
+    "Source": "PopulationSim (2017-21 PUMS)"
+  },
+  {
+    "Field Name": "housing_cost",
+    "Alias": "Housing Cost (ACS)",
+    "Unit of Measure": "Dollars",
+    "Description": "Average annual housing cost per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "2017-21 PUMS & ACS"
+  },
+  {
+    "Field Name": "combined_cost_burden",
+    "Alias": "Combined Transportation and Housing Costs as a Percent of Median Income",
+    "Unit of Measure": "Percent",
+    "Description": "Total Transportation and Housing Costs divided by Income",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Cost Burden Model Outputs (HTS, PopulationSim), USDOT national multipliers for finance charges, service flow costs, and maintenance costs; state level multiplier for fixed ownership costs. 2017-21 PUMS & ACS"
+  },
+  {
+    "Field Name": "depreciation_veh",
+    "Alias": "Vehicle Depreciation",
+    "Unit of Measure": "Dollars per vehicle",
+    "Description": "The average annual dollar amount of depreciation that the vehicle has lost over the time of ownership (for the subset of households in the selected Household Profile). Also referred to as service flow costs.",
+    "Field Type": "Short Integer",
+    "Source": "Derived via modeling effort with data from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "finance_charges_veh",
+    "Alias": "Financing Costs",
+    "Unit of Measure": "Dollars per vehicle",
+    "Description": "Average annual vehicle finance charges per vehicle (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Derived via modeling effort with data from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "fixed_ownership_costs_veh",
+    "Alias": "Fixed Ownership Costs",
+    "Unit of Measure": "Dollars per vehicle",
+    "Description": "The fixed ownership costs (insurance, taxes, etc.) per vehicle (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Derived via modeling effort with data from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "auto_owner_cost",
+    "Alias": "Automotive Ownership Costs",
+    "Unit of Measure": "Dollars per household",
+    "Description": "These are the costs of continuing to own a vehicle even if it is not driven (including: the average annual depreciation of the vehicle, finance charges, and fixed ownership costs such as insurance and taxes). Sum of these costs are multiplied by the number of vehicles per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "See calculation. Based on data derived from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "auto_operation_costs",
+    "Alias": "Automotive Operating Costs",
+    "Unit of Measure": "Dollars per household",
+    "Description": "The expenses that a household incurs for driving their owned or leased vehicles (including: spending on gasoline as well as maintenance and repair costs). Spending on gasoline is determined by taking vehicle miles travelled divided by fuel efficiency and multiplied by gasoline price per vehicle (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "See calculation. Based on data derived from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "maintenance_repair_costs",
+    "Alias": "Maintenance and Repair Costs",
+    "Unit of Measure": "Dollars per household",
+    "Description": "The average annual costs spent on vehicle maintenance and repair per vehicle multiplied by the average vehicles per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Derived via modeling effort with data from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "vmt",
+    "Alias": "Annual Vehicle Miles Travelled",
+    "Unit of Measure": "Miles",
+    "Description": "Household annual VMT (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "Models of vehicle-miles traveled based on household travel survey (HTS) data"
+  },
+  {
+    "Field Name": "fuel_efficiency",
+    "Alias": "Fuel Efficiency (Miles per Gallon)",
+    "Unit of Measure": "Miles per Gallon",
+    "Description": "Average fuel efficiency in miles per gallon.",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "Argonne National Laboratory (ANL)"
+  },
+  {
+    "Field Name": "gasoline_price",
+    "Alias": "Gasoline Price per Gallon",
+    "Unit of Measure": "Dollars per gallon",
+    "Description": "Gasoline price by state.",
+    "Field Type": "Decimal (18, 2)",
+    "Source": "U.S. Energy Information Administration (EIA) State Energy Data System (SEDS)"
+  },
+  {
+    "Field Name": "fuel_spending",
+    "Alias": "Household Motor Fuel Costs",
+    "Unit of Measure": "Dollars per vehicle",
+    "Description": "The average annual cost of gasoline per vehicle (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Derived via modeling effort with data from: Bureau of Labor Statistics' (BLS) Consumer Expenditure Survey (CEX) Public-Use Microdata (PUMD) files"
+  },
+  {
+    "Field Name": "transit_miles",
+    "Alias": "Average HH Public Transit Travel Miles",
+    "Unit of Measure": "Miles",
+    "Description": "Average annual transit person-miles traveled per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "Models of transit miles traveled based on household travel survey (HTS) data"
+  },
+  {
+    "Field Name": "transit_spending",
+    "Alias": "Regional Public Transit Costs",
+    "Unit of Measure": "Dollars",
+    "Description": "Dollar household costs on regional public transit (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Cost per mile based on transit passenger miles and fares data from National Transit Database (NTD)"
+  },
+  {
+    "Field Name": "tnc_taxi_miles",
+    "Alias": "Average HH Ride Hail Server Travel Miles",
+    "Unit of Measure": "Miles",
+    "Description": "Average annual transportation network company (TNC) and taxi person-miles traveled per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Long Integer",
+    "Source": "Models of TNC/taxi miles traveled based on household travel survey (HTS) data"
+  },
+  {
+    "Field Name": "tnc_taxi_spending",
+    "Alias": "Taxicab and Ride Sharing Costs",
+    "Unit of Measure": "Dollars",
+    "Description": "Average annual transportation network company (TNC) and taxi costs per household (for the subset of households in the selected Household Profile).",
+    "Field Type": "Short Integer",
+    "Source": "Cost per mile based on reported TNC and taxi costs and distances from household travel surveys (HTS)"
+  },
+  {
+    "Field Name": "co2_emissions_veh",
+    "Alias": "Automotive CO2 Emissions per Household",
+    "Unit of Measure": "Kilograms",
+    "Description": "Estimated annual kilograms of automotive carbon dioxide emissions per household. Calculated as 8.887 kg of CO2 per gallon of fuel times VMT over average fuel economy.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. Environmental Protection Agency (EPA), Greenhouse Gas Equivalencies. On average, 8.887 kilograms of CO2 are emitted from burning one gallon of gasoline."
+  },
+  {
+    "Field Name": "acc_pded_r",
+    "Alias": "Walkable Educational Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute walk (1 mile) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. National Center for Education Statistics data"
+  },
+  {
+    "Field Name": "acc_pdgr_r",
+    "Alias": "Walkable Grocery Stores",
+    "Unit of Measure": "Facilities",
+    "Description": "Grocery stores within a 30-minute walk (1 mile) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "USDA SNAP retailers as of January 2024"
+  },
+  {
+    "Field Name": "acc_pdmd_r",
+    "Alias": "Walkable Medical Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute walk (1 mile) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_pdpk_r",
+    "Alias": "Walkable Parks",
+    "Unit of Measure": "Facilities",
+    "Description": "Parks within a 30-minute walk (1 mile) of the tract population centroid. Number of parks within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_pdtr_r",
+    "Alias": "Walkable Transit Trips",
+    "Unit of Measure": "Trips",
+    "Description": "Transit trips in a regular service week within a 30-minute walk (1 mile) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
+  },
+  {
+    "Field Name": "acc_pdjb_r",
+    "Alias": "Walkable Jobs",
+    "Unit of Measure": "Jobs",
+    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute walk (1 mile) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
+  },
+  {
+    "Field Name": "acc_cced_r",
+    "Alias": "Bikable Educational Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute bike ride (5 miles) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. National Center for Education Statistics data"
+  },
+  {
+    "Field Name": "acc_ccgr_r",
+    "Alias": "Bikable Grocery Stores",
+    "Unit of Measure": "Facilities",
+    "Description": "Grocery stores within a 30-minute bike ride (5 miles) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "USDA SNAP retailers as of January 2024"
+  },
+  {
+    "Field Name": "acc_ccmd_r",
+    "Alias": "Bikable Medical Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute bike ride (5 miles) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_ccpk_r",
+    "Alias": "Bikable Parks",
+    "Unit of Measure": "Facilities",
+    "Description": "Parks within a 30-minute bike ride (5 miles) of the tract population centroid. Number of parks within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_cctr_r",
+    "Alias": "Bikable Transit Trips",
+    "Unit of Measure": "Trips",
+    "Description": "Transit trips in a regular service week within a 30-minute bike ride (5 miles) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
+  },
+  {
+    "Field Name": "acc_ccjb_r",
+    "Alias": "Bikable Jobs",
+    "Unit of Measure": "Jobs",
+    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute bike ride (5 miles) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
+  },
+  {
+    "Field Name": "acc_mted_r",
+    "Alias": "Drivable Educational Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute drive of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. National Center for Education Statistics data"
+  },
+  {
+    "Field Name": "acc_mtgr_r",
+    "Alias": "Drivable Grocery Stores",
+    "Unit of Measure": "Facilities",
+    "Description": "Grocery stores within a 30-minute drive of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "USDA SNAP retailers as of January 2024"
+  },
+  {
+    "Field Name": "acc_mtmd_r",
+    "Alias": "Drivable Medical Facilities",
+    "Unit of Measure": "Facilities",
+    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute drive of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_mtpk_r",
+    "Alias": "Drivable Parks",
+    "Unit of Measure": "Facilities",
+    "Description": "Parks within a 30-minute drive of the tract population centroid. Number of parks within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
+  },
+  {
+    "Field Name": "acc_mttr_r",
+    "Alias": "Drivable Transit Trips",
+    "Unit of Measure": "Trips",
+    "Description": "Transit trips in a regular service week within a 30-minute drive of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
+  },
+  {
+    "Field Name": "acc_mtjb_r",
+    "Alias": "Drivable Jobs",
+    "Unit of Measure": "Jobs",
+    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute drive of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Field Type": "Short Integer",
+    "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
+  }
+]
