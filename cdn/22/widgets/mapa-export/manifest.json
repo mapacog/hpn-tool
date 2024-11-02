@@ -1,0 +1,17 @@
+{
+  "name": "mapa-export",
+  "label": "Export Data (MAPA)",
+  "type": "widget",
+  "version": "1.16.0",
+  "exbVersion": "1.16.0",
+  "author": "Ahjung Kim at High Street Consulting",
+  "description": "Exports data source layers along with the current filter info.",
+  "copyright": "All rights reserved.",
+  "license": "",
+  "dependency": "jimu-arcgis",
+  "properties": {},
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  }
+}

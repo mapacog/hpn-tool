@@ -339,7 +339,7 @@
     "Field Name": "acc_pded_r",
     "Alias": "Walkable Educational Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute walk (1 mile) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of primary, secondary, and post-secondary education facilities within a 30-minute walk (1 mile) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. National Center for Education Statistics data"
   },
@@ -347,7 +347,7 @@
     "Field Name": "acc_pdgr_r",
     "Alias": "Walkable Grocery Stores",
     "Unit of Measure": "Facilities",
-    "Description": "Grocery stores within a 30-minute walk (1 mile) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of grocery stores within a 30-minute walk (1 mile) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "USDA SNAP retailers as of January 2024"
   },
@@ -355,7 +355,7 @@
     "Field Name": "acc_pdmd_r",
     "Alias": "Walkable Medical Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute walk (1 mile) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of hospitals, outpatient care facilities, and pharmacies within a 30-minute walk (1 mile) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -363,7 +363,7 @@
     "Field Name": "acc_pdpk_r",
     "Alias": "Walkable Parks",
     "Unit of Measure": "Facilities",
-    "Description": "Parks within a 30-minute walk (1 mile) of the tract population centroid. Number of parks within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of parks within a 30-minute walk (1 mile) of the tract population centroid. Number of parks within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -371,7 +371,7 @@
     "Field Name": "acc_pdtr_r",
     "Alias": "Walkable Transit Trips",
     "Unit of Measure": "Trips",
-    "Description": "Transit trips in a regular service week within a 30-minute walk (1 mile) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of transit trips in a regular service week within a 30-minute walk (1 mile) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
   },
@@ -379,7 +379,7 @@
     "Field Name": "acc_pdjb_r",
     "Alias": "Walkable Jobs",
     "Unit of Measure": "Jobs",
-    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute walk (1 mile) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of jobs (2020 LEHD jobs data) within a 30-minute walk (1 mile) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute walk (defined as one mile) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
   },
@@ -387,7 +387,7 @@
     "Field Name": "acc_cced_r",
     "Alias": "Bikable Educational Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute bike ride (5 miles) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of primary, secondary, and post-secondary education facilities within a 30-minute bike ride (5 miles) of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. National Center for Education Statistics data"
   },
@@ -395,7 +395,7 @@
     "Field Name": "acc_ccgr_r",
     "Alias": "Bikable Grocery Stores",
     "Unit of Measure": "Facilities",
-    "Description": "Grocery stores within a 30-minute bike ride (5 miles) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of grocery stores within a 30-minute bike ride (5 miles) of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "USDA SNAP retailers as of January 2024"
   },
@@ -403,7 +403,7 @@
     "Field Name": "acc_ccmd_r",
     "Alias": "Bikable Medical Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute bike ride (5 miles) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of hospitals, outpatient care facilities, and pharmacies within a 30-minute bike ride (5 miles) of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -411,7 +411,7 @@
     "Field Name": "acc_ccpk_r",
     "Alias": "Bikable Parks",
     "Unit of Measure": "Facilities",
-    "Description": "Parks within a 30-minute bike ride (5 miles) of the tract population centroid. Number of parks within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of parks within a 30-minute bike ride (5 miles) of the tract population centroid. Number of parks within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -419,7 +419,7 @@
     "Field Name": "acc_cctr_r",
     "Alias": "Bikable Transit Trips",
     "Unit of Measure": "Trips",
-    "Description": "Transit trips in a regular service week within a 30-minute bike ride (5 miles) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of transit trips in a regular service week within a 30-minute bike ride (5 miles) of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
   },
@@ -427,7 +427,7 @@
     "Field Name": "acc_ccjb_r",
     "Alias": "Bikable Jobs",
     "Unit of Measure": "Jobs",
-    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute bike ride (5 miles) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of jobs (2020 LEHD jobs data) within a 30-minute bike ride (5 miles) of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute ride (defined as five miles) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
   },
@@ -435,7 +435,7 @@
     "Field Name": "acc_mted_r",
     "Alias": "Drivable Educational Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Primary, secondary, and post-secondary education facilities within a 30-minute drive of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of primary, secondary, and post-secondary education facilities within a 30-minute drive of the tract population centroid. Number of educational facilities (primary, secondary, and post-secondary) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. National Center for Education Statistics data"
   },
@@ -443,7 +443,7 @@
     "Field Name": "acc_mtgr_r",
     "Alias": "Drivable Grocery Stores",
     "Unit of Measure": "Facilities",
-    "Description": "Grocery stores within a 30-minute drive of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of grocery stores within a 30-minute drive of the tract population centroid. Number of grocery stores (\"Supermarket\", \"Super Store\", or \"Large Grocery Store\") within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "USDA SNAP retailers as of January 2024"
   },
@@ -451,7 +451,7 @@
     "Field Name": "acc_mtmd_r",
     "Alias": "Drivable Medical Facilities",
     "Unit of Measure": "Facilities",
-    "Description": "Hospitals, outpatient care facilities, and pharmacies within a 30-minute drive of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of hospitals, outpatient care facilities, and pharmacies within a 30-minute drive of the tract population centroid. Number of hospitals, pharmacies, and outpatient care facilities within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "SafeGraph POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -459,7 +459,7 @@
     "Field Name": "acc_mtpk_r",
     "Alias": "Drivable Parks",
     "Unit of Measure": "Facilities",
-    "Description": "Parks within a 30-minute drive of the tract population centroid. Number of parks within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of parks within a 30-minute drive of the tract population centroid. Number of parks within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "HERE POI dataset received from U.S. DHS HIFLD-Secure database"
   },
@@ -467,7 +467,7 @@
     "Field Name": "acc_mttr_r",
     "Alias": "Drivable Transit Trips",
     "Unit of Measure": "Trips",
-    "Description": "Transit trips in a regular service week within a 30-minute drive of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of transit trips in a regular service week within a 30-minute drive of the tract population centroid. Number of transit trips in a typical service week serving locations within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "U.S. Federal Transit Administration GTFS feeds for National Transit Database reporters, April 2024"
   },
@@ -475,7 +475,7 @@
     "Field Name": "acc_mtjb_r",
     "Alias": "Drivable Jobs",
     "Unit of Measure": "Jobs",
-    "Description": "Jobs (2020 LEHD jobs data) within a 30-minute drive of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
+    "Description": "Range of jobs (2020 LEHD jobs data) within a 30-minute drive of the tract population centroid. Number of jobs (calculated by area-weighted interpolation from data tabulated at the Census block level) within a thirty-minute drive (outbound at 8am on a Wednesday) from the population centroid of the tract.  Land area centroids were used for tracts with fewer than 100 residents.",
     "Field Type": "Short Integer",
     "Source": "Census Bureau 2020 LEHD Workplace Area Characteristics"
   }

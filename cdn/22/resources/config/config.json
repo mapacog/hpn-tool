@@ -2900,7 +2900,7 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "3.60%",
+            "top": "190.00px",
             "bottom": "0.00%",
             "width": "100.0%",
             "height": "100.00%"
@@ -2910,7 +2910,8 @@
               "left": true,
               "right": false,
               "top": false,
-              "bottom": true
+              "bottom": true,
+              "height": "AUTO"
             }
           }
         },
@@ -2919,11 +2920,11 @@
           "widgetId": "widget_341",
           "bbox": {
             "left": "50%",
-            "right": "0.0%",
+            "right": "14.3%",
             "top": "0.0%",
-            "bottom": "96.4%",
-            "width": "100.0%",
-            "height": "3.6%"
+            "bottom": "70.2%",
+            "width": "71.5%",
+            "height": "29.8%"
           },
           "setting": {
             "autoProps": {
@@ -2955,12 +2956,13 @@
               "alignSelf": "center"
             },
             "autoProps": {
-              "width": false
+              "width": false,
+              "height": "AUTO"
             }
           },
           "bbox": {
-            "width": "420px",
-            "height": "28px"
+            "width": "303px",
+            "height": "37.00px"
           },
           "widgetId": "widget_299"
         },
@@ -2968,8 +2970,13 @@
           "type": "WIDGET",
           "widgetId": "widget_300",
           "bbox": {
-            "width": "422px",
-            "height": 477
+            "width": "303px",
+            "height": 383
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
@@ -3638,7 +3645,7 @@
           "widgetId": "widget_298",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             },
             "style": {
               "alignSelf": "flex-end"
@@ -3655,7 +3662,7 @@
           "widgetId": "widget_342",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -3670,7 +3677,21 @@
       "order": [
         "0",
         "1"
-      ]
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_181": {
       "content": {
@@ -3678,8 +3699,13 @@
           "type": "WIDGET",
           "widgetId": "widget_339",
           "bbox": {
-            "width": "488px",
-            "height": "28px"
+            "width": "303px",
+            "height": "37.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         },
         "1": {
@@ -3688,6 +3714,11 @@
           "bbox": {
             "width": "488px",
             "height": "465px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
@@ -4384,8 +4415,8 @@
             }
           },
           "bbox": {
-            "left": 4,
-            "width": 8,
+            "left": 6,
+            "width": 6,
             "height": "340px"
           }
         },
@@ -4395,12 +4426,13 @@
           "setting": {
             "autoProps": {
               "height": "STRETCH"
-            }
+            },
+            "offsetX": 40
           },
           "bbox": {
             "left": 0,
-            "width": 4,
-            "height": 300
+            "width": 6,
+            "height": "300px"
           }
         }
       },
@@ -4436,8 +4468,8 @@
             }
           },
           "bbox": {
-            "left": 4,
-            "width": 8,
+            "left": 6,
+            "width": 6,
             "height": "340px"
           }
         },
@@ -4447,12 +4479,13 @@
           "setting": {
             "autoProps": {
               "height": "STRETCH"
-            }
+            },
+            "offsetX": 4
           },
           "bbox": {
             "left": 0,
-            "width": 4,
-            "height": 300
+            "width": 6,
+            "height": "300px"
           }
         }
       },
@@ -4537,8 +4570,8 @@
             }
           },
           "bbox": {
-            "left": 4,
-            "width": 8,
+            "left": 6,
+            "width": 6,
             "height": "340px"
           }
         },
@@ -4552,8 +4585,8 @@
           },
           "bbox": {
             "left": 0,
-            "width": 4,
-            "height": 300
+            "width": 6,
+            "height": "300px"
           }
         }
       },
@@ -4638,8 +4671,8 @@
             }
           },
           "bbox": {
-            "left": 4,
-            "width": 8,
+            "left": 0,
+            "width": 6,
             "height": "340px"
           }
         },
@@ -4652,9 +4685,9 @@
             }
           },
           "bbox": {
-            "left": 0,
-            "width": 4,
-            "height": 300
+            "left": 6,
+            "width": 6,
+            "height": "300px"
           }
         }
       },
@@ -4928,11 +4961,33 @@
               "top": true,
               "bottom": false
             }
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_422",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
           }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "setting": {
         "lockDescendants": true
@@ -4959,11 +5014,33 @@
               "top": true,
               "bottom": false
             }
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_423",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
           }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "setting": {
         "lockDescendants": true
@@ -5853,7 +5930,7 @@
       "label": "Filter 2",
       "config": {
         "groupByLayer": false,
-        "logicalOperator": "OR",
+        "logicalOperator": "AND",
         "custom": false,
         "resetAll": true,
         "turnOffAll": false,
@@ -9340,7 +9417,7 @@
       "label": "Filter 9",
       "config": {
         "groupByLayer": false,
-        "logicalOperator": "OR",
+        "logicalOperator": "AND",
         "custom": false,
         "resetAll": true,
         "turnOffAll": false,
@@ -10185,7 +10262,7 @@
       "version": "1.14.0",
       "label": "Text 93",
       "config": {
-        "text": "<p style=\"line-height: 1.1; text-align: left;\">The following toggles geometric aspects of the roadway or intersection. Some attributes were synthetically populated due to missing coverage and not always accurate. The layers will display when <strong>any </strong>of the below conditions are true. Use the reload button to reset the filters. </p>",
+        "text": "<p style=\"line-height: 1.1; text-align: left;\">The following toggles geometric aspects of the roadway or intersection. Some attributes were synthetically populated due to missing coverage and not always accurate. The filters are cross-sectional and use an <strong>\"AND\"</strong> query.  Use the reload button to reset the filters. </p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -12078,7 +12155,7 @@
       "version": "1.14.0",
       "label": "Text 127",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Roadway Scoring:</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--dark-800);\">Roadways:</strong></p>",
         "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
@@ -12105,7 +12182,7 @@
           "fields": [
             "hrn_score",
             "csn_score",
-            "hpn_score"
+            "hin_score"
           ]
         }
       ]
@@ -12126,10 +12203,9 @@
           "mainDataSourceId": "dataSource_1-192c5701510-layer-18",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "OBJECTID",
             "hrn_score",
             "csn_score",
-            "hpn_score"
+            "hin_score"
           ]
         }
       ]
@@ -15292,7 +15368,7 @@
       "version": "1.14.0",
       "label": "Text 140",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Intersection Scoring:</strong></p>",
+        "text": "<p style=\"line-height: 1.5; text-align: center;\"><strong style=\"font-size: 20px; color: var(--dark-800);\">Intersections:</strong></p>",
         "placeholder": "<p style=\"text-align: left;\"><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
@@ -15328,7 +15404,7 @@
       "version": "1.14.0",
       "label": "Text 141",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 22px;\">High Priority Network Scoring Tool</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 22px;\">Create Your Own Network - Scoring Tool</strong></p><p style=\"text-align: center;\">Utilize the sliders below to create your own network to display on the map and export into your own GIS software. This tool can be utilized by planning on policy makers in the prioritization process. Networks created in this tool do not interact with the Network Statistics tab on the right.</p><p style=\"line-height: 0.1; text-align: center;\"><span style=\"font-size: 6px;\">﻿</span></p><p style=\"text-align: center;\"><strong>Variables:</strong></p><p style=\"text-align: center;\">High Risk Network Score \t\t\t\t\t(hrn_score)</p><p style=\"text-align: center;\">Community Survey Network Score \t(csn_score)</p><p style=\"text-align: center;\">High Injury Network \t\t\t\t\t\t\t(hin_score)</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -15366,7 +15442,7 @@
       "version": "1.14.0",
       "label": "Text 142",
       "config": {
-        "text": "<p style=\"text-align: left; line-height: 1.1;\">The following toggles display roads and intersections where specific crashes have occurred. The layers will display when <strong>any </strong>of the below conditions are true. Use the reload button to reset the filters.</p><p style=\"text-align: left; line-height: 1.1;\"><br></p><p style=\"text-align: left; line-height: 1.1;\"><strong>Roads and Junctions with:</strong></p>",
+        "text": "<p style=\"text-align: left; line-height: 1.1;\">The following toggles display roads and intersections where specific crashes have occurred. The filters are cross-sectional and use an \"<strong>AND</strong>\" query. Use the reload button to reset the filters.</p><p style=\"text-align: left; line-height: 1.1;\"><br></p><p style=\"text-align: left; line-height: 1.1;\"><strong>Roads and Junctions with:</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -19832,12 +19908,31 @@
           "toolTip": "",
           "linkParam": {},
           "scale": "Fit",
-          "imageParam": {},
-          "imageDisplayQualityMode": "ORIGINAL"
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_378/1730497994081.PNG",
+            "originalUrl": "${appResourceUrl}/images/widget_378/1730497994081.PNG",
+            "fileName": "1730497994081.PNG",
+            "originalName": "Layers.PNG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1730497994081",
+            "isUseCompress": false,
+            "originalWidth": 642,
+            "originalHeight": 548
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
         },
         "styleConfig": {}
       },
-      "id": "widget_378"
+      "id": "widget_378",
+      "style": {
+        "boxShadow": {
+          "presetStyle": "shadow-lg"
+        }
+      }
     },
     "widget_379": {
       "uri": "widgets/layout/row/",
@@ -19929,12 +20024,31 @@
           "toolTip": "",
           "linkParam": {},
           "scale": "Fit",
-          "imageParam": {},
-          "imageDisplayQualityMode": "ORIGINAL"
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_383/1730498082021.PNG",
+            "originalUrl": "${appResourceUrl}/images/widget_383/1730498082021.PNG",
+            "fileName": "1730498082021.PNG",
+            "originalName": "Filters.PNG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1730498082021",
+            "isUseCompress": false,
+            "originalWidth": 642,
+            "originalHeight": 646
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
         },
         "styleConfig": {}
       },
-      "id": "widget_383"
+      "id": "widget_383",
+      "style": {
+        "boxShadow": {
+          "presetStyle": "shadow-lg"
+        }
+      }
     },
     "widget_384": {
       "uri": "widgets/layout/row/",
@@ -20026,12 +20140,31 @@
           "toolTip": "",
           "linkParam": {},
           "scale": "Fit",
-          "imageParam": {},
-          "imageDisplayQualityMode": "ORIGINAL"
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_388/1730498100454.PNG",
+            "originalUrl": "${appResourceUrl}/images/widget_388/1730498100454.PNG",
+            "fileName": "1730498100454.PNG",
+            "originalName": "Scoring.PNG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1730498100454",
+            "isUseCompress": false,
+            "originalWidth": 643,
+            "originalHeight": 491
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
         },
         "styleConfig": {}
       },
-      "id": "widget_388"
+      "id": "widget_388",
+      "style": {
+        "boxShadow": {
+          "presetStyle": "shadow-lg"
+        }
+      }
     },
     "widget_389": {
       "uri": "widgets/layout/row/",
@@ -20123,12 +20256,31 @@
           "toolTip": "",
           "linkParam": {},
           "scale": "Fit",
-          "imageParam": {},
-          "imageDisplayQualityMode": "ORIGINAL"
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_393/1730498119454.PNG",
+            "originalUrl": "${appResourceUrl}/images/widget_393/1730498119454.PNG",
+            "fileName": "1730498119454.PNG",
+            "originalName": "Statistics.PNG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1730498119454",
+            "isUseCompress": false,
+            "originalWidth": 747,
+            "originalHeight": 476
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
         },
         "styleConfig": {}
       },
-      "id": "widget_393"
+      "id": "widget_393",
+      "style": {
+        "boxShadow": {
+          "presetStyle": "shadow-lg"
+        }
+      }
     },
     "widget_394": {
       "uri": "widgets/common/button/",
@@ -27221,6 +27373,46 @@
           ]
         }
       ]
+    },
+    "widget_422": {
+      "uri": "widgets/mapa-export/",
+      "version": "1.16.0",
+      "label": "Export Data (MAPA)",
+      "config": {
+        "fileNamePrefix": "hpntool_roads_export"
+      },
+      "id": "widget_422",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-192c5700afe-layer-17",
+          "mainDataSourceId": "dataSource_1-192c5700afe-layer-17",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
+    },
+    "widget_423": {
+      "uri": "widgets/mapa-export/",
+      "version": "1.16.0",
+      "label": "Export Data (MAPA) 2",
+      "config": {
+        "fileNamePrefix": "hpntool_intersections_export"
+      },
+      "id": "widget_423",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-192c5701510-layer-18",
+          "mainDataSourceId": "dataSource_1-192c5701510-layer-18",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "useMapWidgetIds": [
+        "widget_7"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -27596,12 +27788,13 @@
     },
     "dialog_11": {
       "id": "dialog_11",
-      "mode": "FIXED",
+      "mode": "ANCHORED",
       "blockPage": true,
       "sizeMode": {
         "LARGE": {
-          "position": "RIGHT",
-          "width": "1009px"
+          "position": null,
+          "width": "639px",
+          "height": "656px"
         }
       },
       "dialogBackground": {
@@ -27611,11 +27804,11 @@
           "url": ""
         }
       },
-      "overlayColor": "var(--dark-900)",
+      "overlayColor": null,
       "layout": {
         "LARGE": "layout_158"
       },
-      "index": 1,
+      "index": 12,
       "isSplash": false,
       "border": {
         "color": "var(--light-300)",
@@ -27811,7 +28004,7 @@
         "SMALL": "layout_196",
         "MEDIUM": "layout_197"
       },
-      "index": 2,
+      "index": 1,
       "isSplash": false,
       "border": {
         "color": "var(--primary)",
@@ -27897,7 +28090,7 @@
       "layout": {
         "LARGE": "layout_216"
       },
-      "index": 3,
+      "index": 2,
       "isSplash": false,
       "border": {
         "color": "var(--light-300)",
@@ -28005,7 +28198,7 @@
       "layout": {
         "LARGE": "layout_222"
       },
-      "index": 4,
+      "index": 3,
       "isSplash": false,
       "border": {
         "color": "var(--light-300)",
@@ -28862,55 +29055,6 @@
         }
       ]
     },
-    "messageConfig_2": {
-      "id": "messageConfig_2",
-      "widgetId": "widget_66",
-      "messageType": "DATA_SOURCE_FILTER_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_7-zoomToFeature-1724941346514",
-          "widgetId": "widget_7",
-          "messageWidgetId": "widget_66",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-191bee2a8a7-layer-15",
-              "mainDataSourceId": "dataSource_1-191bee2a8a7-layer-15",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-191bee2a8a7-layer-15",
-                "mainDataSourceId": "dataSource_1-191bee2a8a7-layer-15",
-                "rootDataSourceId": "dataSource_1"
-              },
-              {
-                "dataSourceId": "dataSource_1-191bee1ea44-layer-14",
-                "mainDataSourceId": "dataSource_1-191bee1ea44-layer-14",
-                "rootDataSourceId": "dataSource_1"
-              },
-              {
-                "dataSourceId": "dataSource_1-191bef3cca3-layer-9",
-                "mainDataSourceId": "dataSource_1-191bef3cca3-layer-9",
-                "rootDataSourceId": "dataSource_1"
-              },
-              {
-                "dataSourceId": "dataSource_1-191bef3d30f-layer-10",
-                "mainDataSourceId": "dataSource_1-191bef3d30f-layer-10",
-                "rootDataSourceId": "dataSource_1",
-                "fields": [
-                  "City_Name",
-                  "County_Name"
-                ]
-              }
-            ]
-          },
-          "version": "1.15.0",
-          "useDataSources": []
-        }
-      ]
-    },
     "messageConfig_3": {
       "id": "messageConfig_3",
       "widgetId": "widget_105",
@@ -29089,6 +29233,84 @@
           "version": "1.14.0"
         }
       ]
+    },
+    "messageConfig_9": {
+      "id": "messageConfig_9",
+      "widgetId": "widget_66",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_7-zoomToFeature-1730505157498",
+          "widgetId": "widget_7",
+          "messageWidgetId": "widget_66",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_22-0",
+              "mainDataSourceId": "dataSource_22-0",
+              "rootDataSourceId": "dataSource_22",
+              "fields": [
+                "city",
+                "county"
+              ]
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_22-0",
+                "mainDataSourceId": "dataSource_22-0",
+                "rootDataSourceId": "dataSource_22",
+                "fields": [
+                  "city",
+                  "county"
+                ]
+              },
+              {
+                "dataSourceId": "dataSource_21-0",
+                "mainDataSourceId": "dataSource_21-0",
+                "rootDataSourceId": "dataSource_21",
+                "fields": [
+                  "city",
+                  "county"
+                ]
+              },
+              {
+                "dataSourceId": "dataSource_1-192c5700afe-layer-17",
+                "mainDataSourceId": "dataSource_1-192c5700afe-layer-17",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "city",
+                  "county"
+                ]
+              },
+              {
+                "dataSourceId": "dataSource_1-192c5701510-layer-18",
+                "mainDataSourceId": "dataSource_1-192c5701510-layer-18",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "city",
+                  "county"
+                ]
+              },
+              {
+                "dataSourceId": "dataSource_1-192c3e94eec-layer-16-191bee2a8a7-layer-15",
+                "mainDataSourceId": "dataSource_1-192c3e94eec-layer-16-191bee2a8a7-layer-15",
+                "rootDataSourceId": "dataSource_1"
+              },
+              {
+                "dataSourceId": "dataSource_1-192c3e94eec-layer-16-191bee1ea44-layer-14",
+                "mainDataSourceId": "dataSource_1-192c3e94eec-layer-16-191bee1ea44-layer-14",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "City_Name"
+                ]
+              }
+            ]
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "originExbVersion": "1.14.0",
@@ -29097,7 +29319,7 @@
       "page_0": []
     }
   ],
-  "timestamp": 1730237935529,
+  "timestamp": 1730507238064,
   "publishTimestamp": 1717740228644,
   "attributes": {
     "portalUrl": "https://mapa.maps.arcgis.com"

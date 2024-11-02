@@ -110,5 +110,61 @@
     "isUseCompress": false,
     "originalWidth": 972,
     "originalHeight": 782
+  },
+  "1730497994081": {
+    "originalName": "Layers.PNG",
+    "fileName": "1730497994081.PNG",
+    "size": 35299,
+    "url": "${appResourceUrl}/images/widget_378/1730497994081.PNG",
+    "created": 1730497994081,
+    "resourcesPrefix": "images/widget_378",
+    "referedIds": [],
+    "originId": "1730497994081",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 642,
+    "originalHeight": 548
+  },
+  "1730498082021": {
+    "originalName": "Filters.PNG",
+    "fileName": "1730498082021.PNG",
+    "size": 49101,
+    "url": "${appResourceUrl}/images/widget_383/1730498082021.PNG",
+    "created": 1730498082021,
+    "resourcesPrefix": "images/widget_383",
+    "referedIds": [],
+    "originId": "1730498082021",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 642,
+    "originalHeight": 646
+  },
+  "1730498100454": {
+    "originalName": "Scoring.PNG",
+    "fileName": "1730498100454.PNG",
+    "size": 46088,
+    "url": "${appResourceUrl}/images/widget_388/1730498100454.PNG",
+    "created": 1730498100454,
+    "resourcesPrefix": "images/widget_388",
+    "referedIds": [],
+    "originId": "1730498100454",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 643,
+    "originalHeight": 491
+  },
+  "1730498119454": {
+    "originalName": "Statistics.PNG",
+    "fileName": "1730498119454.PNG",
+    "size": 33972,
+    "url": "${appResourceUrl}/images/widget_393/1730498119454.PNG",
+    "created": 1730498119454,
+    "resourcesPrefix": "images/widget_393",
+    "referedIds": [],
+    "originId": "1730498119454",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 747,
+    "originalHeight": 476
   }
 }

@@ -8030,6 +8030,37 @@
     "group": 7
   },
   {
+    "name": "cost_burden_value_update_v2",
+    "manifest": {
+      "name": "cost_burden_value_update_v2",
+      "label": "Transportation Cost Adjustments (V2)",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "Allow users to adjust transporation cost burden values.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      },
+      "dependency": [
+        "jimu-arcgis"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/cost_burden_value_update_v2/",
+    "icon": "widgets/cost_burden_value_update_v2/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "dynamic-text",
     "manifest": {
       "name": "dynamic-text",
@@ -8265,6 +8296,30 @@
     },
     "uri": "widgets/slide-toggle/",
     "icon": "widgets/slide-toggle/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mapa-export",
+    "manifest": {
+      "name": "mapa-export",
+      "label": "Export Data (MAPA)",
+      "type": "widget",
+      "version": "1.16.0",
+      "exbVersion": "1.16.0",
+      "author": "Ahjung Kim at High Street Consulting",
+      "description": "Exports data source layers along with the current filter info.",
+      "copyright": "All rights reserved.",
+      "license": "",
+      "dependency": "jimu-arcgis",
+      "properties": {},
+      "defaultSize": {
+        "width": 400,
+        "height": 200
+      }
+    },
+    "uri": "widgets/mapa-export/",
+    "icon": "widgets/mapa-export/icon.svg",
     "order": 700,
     "group": 7
   },
