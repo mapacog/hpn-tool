@@ -1,0 +1,17 @@
+{
+  "name": "export-map-selection",
+  "label": "Export Map Selection",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Ahjung Kim at High Street Consulting",
+  "description": "Exports feature selection from the map to a CSV or geoJSON file. If there's no selection, map extent data will be exported.",
+  "copyright": "",
+  "license": "All rights reserved.",
+  "dependency": "jimu-arcgis",
+  "properties": {},
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  }
+}
