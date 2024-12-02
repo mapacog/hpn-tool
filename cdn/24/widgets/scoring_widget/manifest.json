@@ -1,0 +1,17 @@
+{
+  "name": "scoring_widget",
+  "label": "Scoring Widget",
+  "type": "widget",
+  "version": "1.15.0",
+  "exbVersion": "1.15.0",
+  "author": "High Street Consulting",
+  "description": "This widget changes weights of the scoring model.",
+  "copyright": "All rights reserved",
+  "license": "",
+  "dependency": "jimu-arcgis",
+  "properties": {},
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  }
+}
