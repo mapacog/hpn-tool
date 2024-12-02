@@ -8030,6 +8030,37 @@
     "group": 7
   },
   {
+    "name": "cost_burden_value_update_v2",
+    "manifest": {
+      "name": "cost_burden_value_update_v2",
+      "label": "Transportation Cost Adjustments (V2)",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "Allow users to adjust transporation cost burden values.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      },
+      "dependency": [
+        "jimu-arcgis"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/cost_burden_value_update_v2/",
+    "icon": "widgets/cost_burden_value_update_v2/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "dynamic-text",
     "manifest": {
       "name": "dynamic-text",
@@ -8209,6 +8240,31 @@
     "group": 7
   },
   {
+    "name": "score-cards",
+    "manifest": {
+      "name": "score-cards",
+      "label": "Score Cards",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "High Street Consulting",
+      "description": "Score Card panel to display weighted averages.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "useDataSources": true
+      },
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "uri": "widgets/score-cards/",
+    "icon": "widgets/score-cards/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "slide-toggle",
     "manifest": {
       "name": "slide-toggle",
@@ -8240,6 +8296,112 @@
     },
     "uri": "widgets/slide-toggle/",
     "icon": "widgets/slide-toggle/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mapa-export",
+    "manifest": {
+      "name": "mapa-export",
+      "label": "Export Data (MAPA)",
+      "type": "widget",
+      "version": "1.16.0",
+      "exbVersion": "1.16.0",
+      "author": "Ahjung Kim at High Street Consulting",
+      "description": "Exports data source layers along with the current filter info.",
+      "copyright": "All rights reserved.",
+      "license": "",
+      "dependency": "jimu-arcgis",
+      "properties": {},
+      "defaultSize": {
+        "width": 400,
+        "height": 200
+      }
+    },
+    "uri": "widgets/mapa-export/",
+    "icon": "widgets/mapa-export/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "scoring_widget",
+    "manifest": {
+      "name": "scoring_widget",
+      "label": "Scoring Widget",
+      "type": "widget",
+      "version": "1.15.0",
+      "exbVersion": "1.15.0",
+      "author": "High Street Consulting",
+      "description": "This widget changes weights of the scoring model.",
+      "copyright": "All rights reserved",
+      "license": "",
+      "dependency": "jimu-arcgis",
+      "properties": {},
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "uri": "widgets/scoring_widget/",
+    "icon": "widgets/scoring_widget/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "slide-toggle",
+    "manifest": {
+      "name": "slide-toggle",
+      "label": "Slide Toggle",
+      "type": "widget",
+      "version": "1.13.0",
+      "exbVersion": "1.13.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is the widget used in developer documentation",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 300,
+        "height": 100
+      }
+    },
+    "i18nLabel": {
+      "en": "Slide Toggle"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/slide-toggle/",
+    "icon": "widgets/slide-toggle/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "slide-toggle2",
+    "manifest": {
+      "name": "slide-toggle2",
+      "label": "slide toggle widget",
+      "type": "widget",
+      "version": "1.15.0",
+      "exbVersion": "1.15.0",
+      "author": "High Street Consulting",
+      "description": "This widget is a slide toggle of two.",
+      "copyright": "All rights reserved",
+      "license": "",
+      "dependency": "jimu-arcgis",
+      "properties": {},
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "uri": "widgets/slide-toggle2/",
+    "icon": "widgets/slide-toggle2/icon.svg",
     "order": 700,
     "group": 7
   },
